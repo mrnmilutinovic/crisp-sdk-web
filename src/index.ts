@@ -1,21 +1,10 @@
 import CrispMessage from "./message";
 
-export type {
-  AnimationMessage,
-  AudioMessage,
-  FileMessage,
-  PickerMessage,
-  PickerMessageChoices,
-  FieldMessage
-} from "./message";
+export * from "./message";
 
 import CrispUser from "./user";
 
-export type {
-  CompanyData,
-  CompanyDataEmployment,
-  CompanyDataGeolocation
-} from "./user";
+export * from "./user";
 
 import CrispTrigger from "./trigger";
 
