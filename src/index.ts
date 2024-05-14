@@ -1,6 +1,6 @@
 import CrispMessage from "./message";
 
-export {
+export type {
   AnimationMessage,
   AudioMessage,
   FileMessage,
@@ -11,7 +11,7 @@ export {
 
 import CrispUser from "./user";
 
-export {
+export type {
   CompanyData,
   CompanyDataEmployment,
   CompanyDataGeolocation
